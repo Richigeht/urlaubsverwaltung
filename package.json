@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-cafe": "testcafe chrome src/test/testcafe/jsp/"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,8 @@
     "babel-plugin-dynamic-import-node": "1.2.0",
     "babel-preset-env": "1.6.1",
     "jest": "21.2.1",
-    "moment": "2.19.3"
+    "moment": "2.19.3",
+    "testcafe": "0.19.2"
   },
   "babel": {
     "presets": [
